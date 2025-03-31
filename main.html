@@ -4,11 +4,92 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      font-family: Arial, sans-serif;
+      background-color: yellow; /* Table background color */
+    }
+
+    /* Caption Style */
+    caption {
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    /* Header Style */
+    thead {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    thead th {
+      padding: 10px;
+      text-align: left;
+      border: 1px solid black; /* Black border for headers */
+    }
+
+    /* Body Style */
+    tbody tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    tbody tr:hover {
+      background-color: #ddd;
+    }
+
+    tbody td {
+      padding: 10px;
+      text-align: left;
+      border: 1px solid black; /* Black border for table cells */
+    }
+
+    /* Row Borders */
+    tr {
+      border: 1px solid black; /* Black border for rows */
+    }
+
+    /* Footer Style */
+    tfoot td {
+      font-weight: bold;
+      background-color: #f9f9f9;
+    }
+  </style>
+
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	    <caption>Student Details</caption>
+	<table >
+		<thead>
+			<tr>
+				<td>NAME</td>
+				<td>AGE</td>
+				<td>BRANCH</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Shaw</td>
+				<td>20</td>
+				<td>CSE</td>
+			</tr>
+			<tr>
+				<td>Adil</td>
+				<td>21</td>
+				<td>ECE</td>
+			</tr>
+		</tbody>
+		
+	</table>
+
     <script type="text/javascript" src="./script.js">
+
 </script>
 
 </body>
